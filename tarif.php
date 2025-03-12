@@ -54,7 +54,7 @@ else {
     }
 
     if ($tarif == "tarif rouge" || $tarif == "tarif orange" || $tarif == "tarif vert" || $tarif == "tarif bleu") {
-        echo ("Vous apartenez à la catégorie " . $tarif);
+        echo ("Vous appartenez à la catégorie " . $tarif);
     } else {
         echo ($blacklist);
     }
